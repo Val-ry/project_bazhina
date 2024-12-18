@@ -1,99 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My_project</title>
+    <title>English School</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-
 <body>
-
  <header class="header">
-    <nav class="header_menu">
-        <button class="header_button">Вход</button>
-        <img class="header_logo" src="images/logo.png" alt="Логотип" width="170" height="130">
-        <button class="header_button">Регистрация</button>
+    <img class="header__logo" src="images/logo.png" alt="Логотип" width="170" height="130">
+    <button class="header__button" type="button">Вход</button>
+    <button class="header__button" type="button">Регистрация</button>
+    <nav class="header__menu">
         <ul class="menu"> 
-            <li class="menu__item menu__item--active"><a class="menu__link" href="#/">Главная</a></li>
-            <li class="menu__item"><a class="menu__link" href="#/">О нас</a></li>
-            <li class="menu__item"><a class="menu__link" href="#/">Курсы</a></li>
-            <li class="menu__item"><a class="menu__link" href="#/">Сообщество</a></li>
-            <li class="menu__item"><a class="menu__link" href="#/">Материалы</a></li>
+            <li class="menu__item menu__item--active">
+                <button class="menu__btn menu__btn--active"><a class="menu__link" href="#/">Главная</a></button>
+            </li>
+            <li class="menu__item">
+                <button class="menu__btn"><a class="menu__link" href="#/">О нас</a></button>
+            </li>
+            <li class="menu__item">
+                <button class="menu__btn"> <a class="menu__link" href="#/">Курсы</a></button>
+            </li>
+            <li class="menu__item">
+                <button class="menu__btn"><a class="menu__link" href="#/">Сообщество</a></button>
+            </li>
+            <li class="menu__item">
+                <button class="menu__btn"><a class="menu__link" href="#/">Материалы</a></button>
+            </li>
         </ul>
-        <h1 class="header_title">Изучение английского языка с удовольствием!</h1>
     </nav>
- </header> 
+ </header>  
 
  <main class="main">
-    <section class="intro">
-        <div class="intro">
-          <img class="intro__image" src="images/london.png" alt="Лондон" height="400" width="600">
-          <p class="intro__text">Вдохновляющий текст про Лондон</p>
-          <button class="intro__button">Узнать больше</button>
-        </div>
-      </section>
-    <section class="courses">
-        <div class="courses__list">
-            <h2 class="courses__header">Подберем курсы для каждого!</h2>
-            <ul class="courses__list">
-                <li class="courses__item">
-                    <img class="courses__img" src="images/A0_level.png" alt="начальный уровень" height="50" width="50">
-                    <h2 class="courses__title">Уровень A0-A2</h2>
-                    <p class="courses__date">Старт: 9 декабря 2024г.</p>
-                    <a class="courses__link" href="/#">Узнать больше</a> 
-                    <span class="courses__price">От 7 999 рублей</span>
-                    </li>
-                <li class="courses__item">
-                    <img class="courses__img" src="images/B1_level.jpg" alt="средний уровень" height="50" width="50">
-                    <h2 class="courses__title">Уровень B1-B2</h2>
-                    <p class="courses__date">Старт: 18 декабря 2024г.</p>
-                    <a class="courses__link" href="/#">Узнать больше</a> 
-                    <span class="courses__price">От 10 999 рублей</span>  
-                </li>
-                <li class="courses__item">
-                    <img class="courses__img" src="images/C1_level.webp" alt="продвинутый уровень" height="50" width="50">
-                    <h2 class="courses__title">Уровень C1</h2>
-                    <p class="courses__date">Старт: 16 декабря 2024г.</p>
-                    <a class="courses__link" href="/#">Узнать больше</a> 
-                    <span class="courses__price">От 11 999 рублей</span>
-                </li>
-       
-            </ul>
-        </div>
+    <section class="intro"> 
+        <h1 class="intro__title">Изучение английского языка с удовольствием!</h1>
+        <img class="intro__img" src="images/london.png" alt="Лондон" height="400" width="600">
+        <div class="intro__desc">
+            <p class="intro__text">Добро пожаловать в онлайн школу английского языка, для которой нет ничего невозможного! Наша цель - вдохновить вас на изучение английского языка.
+                Присоединяйтесь к нашей большой семье, готовой поделиться своими знаниями и опытом. Мы предлагаем индивидуальный подход к каждому студенту, учитывая его уровень и цели обучения.
+                Забудьте о скучных учебниках и неэффективных методах обучения! Вместо этого откройте для себя увлекательный мир английского языка через интерактивные уроки и увлекательные задания.
+                Давайте вместе сделаем ваше обучение не только эффективным, но и увлекательным! Присоединяйтесь к нашей онлайн школе английского языка и откройте новые возможности для своего личностного и профессионального роста!</p>
+            <a class="intro__link" href="/#">Узнать больше</a>
+        </div>  
     </section>
-    
-<section class="review">
- <div class="review__header">
-    <h2 class="review__title">Отзывы наших учеников!</h2>
- </div>
-    <ol class="review__list">
-        <li class="review__text"><a class="review__user" href="#/">Sveta123</a>: Очень удобный сайт для изучения английского! Учим всей семьей</li>
-        <li class="review__text"><a class="review__user" href="#/">MisterKrutoy</a>:Уехал в Америку благодаря вам лол :D</li>
-        <li class="review__text"><a class="review__user" href="#/">n.vorontsova</a>: Все просто и понятно!</li>
-    </ol>
-    <button class="review__button">Больше отывов</button>
-</section>
+    <section class="courses">
+        <h2 class="courses__title">Подберем курсы для каждого!</h2>
+        <ul class="courses__list">
+            <li class="courses__card">
+                <img class="courses__img" src="images/A0_level.png" alt="начальный уровень">
+                <h3 class="courses__name">Уровень A0-A2</h3>
+                <p class="courses__date">Старт: 9 декабря 2024г.</p>
+                <span class="courses__price">От 7 999 рублей</span>
+                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button> 
+            </li>
+           <li class="courses__card">
+                <img class="courses__img" src="images/B1_level.png" alt="средний уровень">
+                <h3 class="courses__name">Уровень B1-B2</h3>
+                <p class="courses__date">Старт: 18 декабря 2024г.</p>
+                <span class="courses__price">От 10 999 рублей</span> 
+                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button>  
+           </li>
+            <li class="courses__card">
+                <img class="courses__img" src="images/C1_level.png" alt="продвинутый уровень">
+                <h3 class="courses__name">Уровень C1</h3>
+                <p class="courses__date">Старт: 16 декабря 2024г.</p>
+                <span class="courses__price">От 11 999 рублей</span> 
+                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button> 
+            </li>
+        </ul>
+    </section>
+    <section class="reviews">
+         <h2 class="reviews__title">Отзывы наших учеников!</h2>
+         <ol class="reviews__list">
+            <li class="reviews__element">
+                <a class="reviews__userlink" href="#/">Sveta123</a>
+                Очень удобный сайт для изучения английского! Учим всей семьей
+            </li>
+            <li class="reviews__element">
+                <a class="reviews__userlink" href="#/">MisterKrutoy</a>
+                Уехал в Америку благодаря вам лол :D
+            </li>
+            <li class="reviews__element">
+                <a class="reviews__userlink" href="#/">n.vorontsova</a>
+                Всё просто и понятно!
+            </li>
+        </ol>
+    </section>
  </main>
 
  <footer class="footer">
-   <section class="contact">
-    <img class="contact__img" src="images/closing.png" alt="" width="600" height="300">
-    <h2 class="contact__header">Свяжись с нами!</h2>
-    <ul class="contact__list"> 
-        <li class="contact__socials">Мы в <a class="contact__socials-vk" href="#/">VK</a>! Мы в <a class="contact__socials-x" href="#/">X</a>!</li>
-        <li class="contact__email">iloveenglish@meme.ru</li>
-        <li class="contact__phone">+7 (000) 000-00-01</li>
-    </ul>
+    <section class="contacts">
+        <img class="contacts__img" src="images/closing.png" alt="Биг Бен" width="600" height="300">
+        <h2 class="contacts__title">Свяжись с нами!</h2>
+        <ul class="contacts__list"> 
+            <li class="contacts__socials">
+                Мы в <a class="contacts__link" href="#/">VK</a>! 
+            </li>
+            <li class="contacts__socials">
+                Мы в <a class="contacts__link" href="#/">X</a>!
+            </li>
+            <li class="contacts__email">iloveenglish@meme.ru</li>
+            <li class="contacts__phone">+7 (000) 000-00-01</li>
+        </ul>
     </section>
     <form class="sign-in" action="/">
-        <h2 class="sign-in__header"> Зарегистрируйся прямо сейчас!</h2>
-        <input class="sign-in__name" type="text" name="name" placeholder="ФИО" required>
-        <input class="sign-in__phone" type="tel" name="phone" placeholder="Номер телефона" required>
-        <input class="sign-in__email" type="email" name="email" placeholder="Электронная почта" required>
-        <button class="sign-in__button">Зарегистрироваться</button>
+            <h2 class="sign-in__title"> Зарегистрируйся прямо сейчас!</h2>
+            <input class="sign-in__name" type="text" name="name" placeholder="ФИО" required>
+            <input class="sign-in__phone" type="tel" name="phone" placeholder="Номер телефона" required>
+            <input class="sign-in__email" type="email" name="email" placeholder="Электронная почта" required>
+            <button class="sign-in__button" type="submit">Зарегистрироваться</button>
+            <button class="sign-in__button sign-in__button--accent" type="button">Войти</button>
     </form>
-    <p class="usertext">Сайт создан Валерией Бажиной, группа ИЯ-41 АФ</p>
+    <p class="student">Сайт создан Валерией Бажиной, группа ИЯ-41 АФ</p>
  </footer>
 </body>
 </html>

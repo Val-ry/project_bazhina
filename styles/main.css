@@ -1,0 +1,48 @@
+.main
+{
+    background-color: rgb(240, 176, 87);
+    margin: 0 auto;
+    max-width: 1440px; 
+}
+.intro__desc
+{
+  background-color: white;
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  width: 50%;
+}
+.courses__card
+{
+  list-style-type: none; 
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  height: auto;
+}
+.courses__link
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0); 
+} 
+.courses__img
+{
+  border: 6px solid;
+  border-radius: 10px;  
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-color: rgb(0, 149, 255);
+}
+.reviews__element
+{
+  list-style-type: none; 
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 180px;
+}
