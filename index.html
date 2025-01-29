@@ -9,42 +9,47 @@
 </head>
 
 <body>
- <header class="header">
-    <img class="header__logo" src="images/logo.png" alt="Логотип" width="170" height="130">
-    <button class="header__button" type="button">Вход</button>
-    <button class="header__button" type="button">Регистрация</button>
+ <header class="header container">
+    <a class="header__logo-wrap" href="index.html">  
+        <img class="header__logo" src="images/logo.png" alt="Логотип" width="150" height="110">
+        <h1 class="header__title"> Cat English School</h1>
+    </a>
     <nav class="header__menu">
         <ul class="menu"> 
             <li class="menu__item menu__item--active">
-                <button class="menu__btn menu__btn--active"><a class="menu__link" href="#/">Главная</a></button>
+                <a class="menu__link menu__link--active" href="#/">Главная</a>
             </li>
             <li class="menu__item">
-                <button class="menu__btn"><a class="menu__link" href="#/">О нас</a></button>
+                <a class="menu__link" href="#/">О нас</a>
             </li>
             <li class="menu__item">
-                <button class="menu__btn"> <a class="menu__link" href="#/">Курсы</a></button>
+                <a class="menu__link" href="#/">Курсы</a>
             </li>
             <li class="menu__item">
-                <button class="menu__btn"><a class="menu__link" href="#/">Сообщество</a></button>
+                <a class="menu__link" href="#/">Сообщество</a>
             </li>
             <li class="menu__item">
-                <button class="menu__btn"><a class="menu__link" href="#/">Материалы</a></button>
+                <a class="menu__link" href="#/">Материалы</a>
             </li>
         </ul>
-    </nav>
+    </nav>  
+    <div class="header__buttons">
+        <button class="header__button" type="button">Вход</button>
+        <button class="header__button" type="button">Регистрация</button>
+   </div> 
  </header>  
 
- <main class="main">
+ <main class="main container">
     <section class="intro"> 
-        <h1 class="intro__title">Изучение английского языка с удовольствием!</h1>
-        <img class="intro__img" src="images/london.png" alt="Лондон" height="400" width="600">
         <div class="intro__desc">
+            <h2 class="intro__title">Изучение английского языка с удовольствием!</h2>
             <p class="intro__text">Добро пожаловать в онлайн школу английского языка, для которой нет ничего невозможного! Наша цель - вдохновить вас на изучение английского языка.
                 Присоединяйтесь к нашей большой семье, готовой поделиться своими знаниями и опытом. Мы предлагаем индивидуальный подход к каждому студенту, учитывая его уровень и цели обучения.
                 Забудьте о скучных учебниках и неэффективных методах обучения! Вместо этого откройте для себя увлекательный мир английского языка через интерактивные уроки и увлекательные задания.
                 Давайте вместе сделаем ваше обучение не только эффективным, но и увлекательным! Присоединяйтесь к нашей онлайн школе английского языка и откройте новые возможности для своего личностного и профессионального роста!</p>
             <a class="intro__link" href="/#">Узнать больше</a>
-        </div>  
+        </div> 
+        <img class="intro__img" src="images/london.png" alt="Лондон">  
     </section>
     <section class="courses">
         <h2 class="courses__title">Подберем курсы для каждого!</h2>
@@ -54,21 +59,21 @@
                 <h3 class="courses__name">Уровень A0-A2</h3>
                 <p class="courses__date">Старт: 9 декабря 2024г.</p>
                 <span class="courses__price">От 7 999 рублей</span>
-                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button> 
+                <a class="courses__link" href="/#">Узнать больше</a>
             </li>
            <li class="courses__card">
                 <img class="courses__img" src="images/B1_level.png" alt="средний уровень">
                 <h3 class="courses__name">Уровень B1-B2</h3>
                 <p class="courses__date">Старт: 18 декабря 2024г.</p>
                 <span class="courses__price">От 10 999 рублей</span> 
-                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button>  
+                <a class="courses__link" href="/#">Узнать больше</a>
            </li>
             <li class="courses__card">
                 <img class="courses__img" src="images/C1_level.png" alt="продвинутый уровень">
                 <h3 class="courses__name">Уровень C1</h3>
                 <p class="courses__date">Старт: 16 декабря 2024г.</p>
                 <span class="courses__price">От 11 999 рублей</span> 
-                <button class="courses__btn"><a class="courses__link" href="/#">Узнать больше</a></button> 
+                <a class="courses__link" href="/#">Узнать больше</a>
             </li>
         </ul>
     </section>
@@ -91,30 +96,37 @@
     </section>
  </main>
 
- <footer class="footer">
-    <section class="contacts">
-        <img class="contacts__img" src="images/closing.png" alt="Биг Бен" width="600" height="300">
+ <footer class="footer container">
+    <img class="footer__img" src="images/closing.png" alt="Биг Бен" width="600" height="300">
+    <div class="contacts">
         <h2 class="contacts__title">Свяжись с нами!</h2>
         <ul class="contacts__list"> 
             <li class="contacts__socials">
-                Мы в <a class="contacts__link" href="#/">VK</a>! 
+                <a class="contacts__link" href="#/"> <img class="contacts__img" src="images/icons/vk.svg" alt="ВКонтакте"> </a> 
+            </li>
+             <li class="contacts__email">
+                <a class="contacts__link" href="#/"> <img class="contacts__img" src="images/icons/gmail.svg" alt="Электронная почта"> </a>
             </li>
             <li class="contacts__socials">
-                Мы в <a class="contacts__link" href="#/">X</a>!
-            </li>
-            <li class="contacts__email">iloveenglish@meme.ru</li>
-            <li class="contacts__phone">+7 (000) 000-00-01</li>
+                <a class="contacts__link" href="#/"> <img class="contacts__img" src="images/icons/twitter.svg" alt="Твиттер"> </a>
+            </li> 
         </ul>
-    </section>
+        <p class="contacts__phone">+7 (000) 000-00-01</p>
+    </div>
     <form class="sign-in" action="/">
             <h2 class="sign-in__title"> Зарегистрируйся прямо сейчас!</h2>
-            <input class="sign-in__name" type="text" name="name" placeholder="ФИО" required>
-            <input class="sign-in__phone" type="tel" name="phone" placeholder="Номер телефона" required>
-            <input class="sign-in__email" type="email" name="email" placeholder="Электронная почта" required>
-            <button class="sign-in__button" type="submit">Зарегистрироваться</button>
-            <button class="sign-in__button sign-in__button--accent" type="button">Войти</button>
+            <div class="sign-in__items">
+                <input class="sign-in__name" type="text" name="name" placeholder="ФИО" required>
+                <input class="sign-in__phone" type="tel" name="phone" placeholder="Номер телефона" required>
+                <input class="sign-in__email" type="email" name="email" placeholder="Электронная почта" required>
+            </div>
+            <div class="sign-in__buttons">
+                <button class="sign-in__button" type="submit">Зарегистрироваться</button>
+                <button class="sign-in__button" type="button">Войти</button>
+            </div>
     </form>
-    <p class="student">Сайт создан Валерией Бажиной, группа ИЯ-41 АФ</p>
  </footer>
+
+ <p class="student">Сайт создан Валерией Бажиной, группа ИЯ-41 АФ</p>
 </body>
 </html>

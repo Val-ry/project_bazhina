@@ -3,28 +3,21 @@ button {
     font-weight: 600;
     line-height: 28px;
     color: #000000;
-    
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
     border: 1px solid #ae6aae;
     border-radius: 10px;
     background-color: #f3a3f3;
-    
     cursor: pointer;
 }
-button:hover 
+button:hover, .courses__link:hover
 {
     color: #ffffff;
     background-color: #693869;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
 }
-
-.sign-in__button--accent {
-    color: #000000;
-    background-color: #ae6aae;
-}
-
-
-.sign-in {
-    font-size: 16px;
-    background-color: transparent;
-    border: 2px solid rgba(145, 150, 161, 0.4);
-    border-radius: 10px;
+.menu__link:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 55, 95);
 }

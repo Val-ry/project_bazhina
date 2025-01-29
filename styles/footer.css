@@ -1,18 +1,51 @@
 .footer
 {
-    background-color: rgb(255, 255, 255);
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:rgb(0, 149, 255);
+    color: black;
+    box-shadow: 1px 2px 20px 5px #d7d7d7;
+}
+.sign-in
+{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:lightblue;
+    border: 2px solid rgba(145, 150, 161, 0.4);
+    border-radius: 10px;  
+}
+.sign-in__title
+{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
 }
 .contacts
 {
-    background-color:rgb(0, 149, 255);
-    color: black;
+font-size: 25px;
+color: white;
+font-weight: 800;
+text-align: center;
 }
 .contacts__list
 {
+    text-decoration: none;
     list-style-type: none;
-    background-color: white;
-    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts__img
+{
+    background-color: rgb(240, 176, 87);
     border-radius: 10px;
+    height: 70px;
+    width: auto;
 }
