@@ -8,6 +8,7 @@ button {
     border-radius: 10px;
     background-color: #f3a3f3;
     cursor: pointer;
+    transition: 0,3s;
 }
 button:hover, .courses__link:hover
 {

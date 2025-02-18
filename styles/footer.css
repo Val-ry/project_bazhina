@@ -28,6 +28,10 @@
     font-weight: 800;
     text-align: center;
 }
+input:focus
+{
+    outline: 2px solid #0e5e6c;
+}
 .contacts
 {
 font-size: 25px;

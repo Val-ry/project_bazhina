@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) 
+{
+    .container 
+    {
+        max-width: 100%;
+    }
+    .footer
+    {
+        flex-wrap: wrap;
+    }
+   .intro
+    {
+        flex-wrap: wrap;
+    }
+    .header__logo-wrap
+    {
+        flex-wrap: wrap;
+    } 
+    .header__button
+    {
+        margin: 5px;
+    }
+    .intro__desc
+    {
+        width: 100% ;
+    }
+}
+
+    
